@@ -1,0 +1,32 @@
+HTML {
+  height: 100%;
+}
+body {
+  font-family: 'Cabin', sans-serif;
+  background-color: #F2F3F4;
+}
+header {
+  background-color: #8BC5BF;
+  padding: 0.5em;
+  text-align: center;
+  font-size: 4em;
+  border-bottom: solid grey 1px;
+  color: white;
+}
+main {
+  position: relative;
+  margin: auto;
+  padding: 1em;
+  border: solid grey 1px;
+  width:50%;
+  height: 50%;
+  background-color: #E7B44C;
+}
+.todo-form {
+  padding: 0.5em;
+  display: block;
+}
+.todo-txt {
+  display: block;
+  margin: auto;
+}

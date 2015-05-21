@@ -1,0 +1,7 @@
+File Structure:
+  render.js - holds JS to output to HTML
+  globalArr.js - holds global array to make variables
+                accessible to other functions.
+  functions.js - holds functions/data
+  app-todo.js - holds major objects
+                {all[], add:, remove:, load:, save:}
