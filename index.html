@@ -8,19 +8,39 @@
       <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <header>To Do List
+    <header>Register
     </header>
     <main class="main-content">
-      <form class='todo-form'>
-        <input type="text" class="todo-txt" name="todo">
+      <form class='user-form'>
+          <p>
+            First Name
+          </p>
+        <input type="text" class="userInfo" id = "firstName">
+          <p>
+            Last Name
+          </p>
+        <input type="text" class="userInfo" id = "lastName">
+          <p>
+          Email
+          </p>
+        <input type="text" class="userInfo" id="eMail">
       </form>
-      <ul class = 'todo-List'>
-      </ul>
-        <script src="js/jquery-2.1.4.min.js"></script>
-        <script src="js/functions.js"></script>
-        <script src="js/app-todo.js"></script>
-        <script src="js/create-todo.js"></script>
-        <script src="js/render-todo.js"></script>
+        <button class ="submit">Submit</button>
+
     </main>
+    <div class = "output-container">
+
+      <ul class = "output">
+        
+
+      </ul>
+
+    </div>
+
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/functions.js"></script>
+    <script src="js/app-user.js"></script>
+    <script src="js/create-user.js"></script>
+    <script src="js/render-user.js"></script>
   </body>
 </html>

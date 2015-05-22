@@ -1,7 +1,65 @@
 File Structure:
-  render.js - holds JS to output to HTML
-  globalArr.js - holds global array to make variables
+  render-user.js - holds JS to output to HTML
+  app.js - holds global array to make variables
                 accessible to other functions.
-  functions.js - holds functions/data
-  app-todo.js - holds major objects
+  adding-removing.js - holds functions/data
+  app-user.js - holds major objects
                 {all[], add:, remove:, load:, save:}
+
+
+MVP:
+1) need to be able to enter data
+  Create a form with first name, last name, and email fields
+2) add the todo to the list
+3) delete a todo
+4) style IT
+
+Functions
+1) to accept input we need --- <form>, <ul>
+2) JS generate the <li> dynamically
+3) <button>X</button> removes the <li> from the <ul>
+
+F - "grabUserInput grabs the inputs from input class .userInfo
+    (validates all fields have an entry)
+    passes them to the createUsers
+    calling the add function
+    calling the render function
+    clears the input fields.
+
+F - createUser = function (txt)
+    create a new object{
+    firstName: txt
+    lastName: txt
+    email: txt
+    }
+
+F - add to list
+
+?F - remove (splice)
+
+F - load JSON.localstorage getItem
+
+F - save JSON.localstorage ??Item
+
+F - render the inputs
+
+F - generate the <li>
+
+F - generate button and assign to <li>
+
+F - "Removing"
+    When the button is clicked
+    run the function to find the closest <li>
+    ??? li.data('index');
+    remove(index)
+    render "all" list again
+
+
+
+
+Features
+1) validate the email by --- if (!'@') then alert user to enter valid email
+2) Remove user
+3) persist user data
+4) sort by full name z-a, a-z
+5) add sort by drop down

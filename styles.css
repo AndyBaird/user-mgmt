@@ -7,11 +7,12 @@ body {
 }
 header {
   background-color: #8BC5BF;
-  padding: 0.5em;
+  padding: 0.3em;
   text-align: center;
-  font-size: 4em;
+  font-size: 4.5em;
   border-bottom: solid grey 1px;
   color: white;
+  margin-bottom: 0.5em;
 }
 main {
   position: relative;
@@ -21,12 +22,24 @@ main {
   width:50%;
   height: 50%;
   background-color: #E7B44C;
+  border-radius: 0.2em;
 }
-.todo-form {
+.user-form {
   padding: 0.5em;
   display: block;
+  text-align: left;
 }
-.todo-txt {
+input {
   display: block;
   margin: auto;
+  width: 90%;
+  margin-bottom: 1em;
+  border-radius: 0.2em;
+  text-align: left;
+  font-size: 1.2em;
+
+}
+
+.submit{
+
 }

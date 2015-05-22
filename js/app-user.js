@@ -1,4 +1,4 @@
-app.todoList = {
+/*app.todoList = {
   all: [],
 
   add: function (txt) {
@@ -12,4 +12,4 @@ app.todoList = {
 
   save: function () {
   }
-};
+};*/
