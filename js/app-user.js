@@ -1,8 +1,8 @@
 app.userList = {
   all: [],
 
-  add: function (userH) {
-    this.all.push(userH);
+  add: function (user) {
+    this.all.push(user);
     this.save();
   },
 

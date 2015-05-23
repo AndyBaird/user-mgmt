@@ -1,18 +1,21 @@
-$(".submit").click(function grabUserInput(){
+$(function () {
 
-  var firstName = $("#firstName").val();
-  var lastName = $("#lastName").val();
-  var eMail = $("#eMail").val();
-  var userHash = {
-    firstname: firstName,
-    lastname: lastName,
-    email: eMail
-  };
+  $(".submit").click(function grabUserInput(){
 
-  app.userList.add(userHash);
+    var firstName = $("#firstName").val();
+    var lastName = $("#lastName").val();
+    var eMail = $("#eMail").val();
+    var userHash = {
+      firstname: firstName,
+      lastname: lastName,
+      email: eMail
+    };
 
-  console.log(app.userList.all);
+    app.userList.add(userHash);
 
-  $(".userInfo").val('');
-  return userHash;
+    console.log(app.userList.all);
+
+    $(".userInfo").val('');
+    return userHash;
+  });
 });
