@@ -51,3 +51,19 @@ input {
   /*box-shadow: #55A495;*/
   border-radius: 0.2em;
 }
+li {
+  border:1px solid grey;
+  margin: auto;
+  position: relative; width: 50%;
+  margin-top: 1em; background-color: white;
+}
+
+.user-name{
+  padding-left: 1em;
+  float: left;
+}
+
+.user-email{
+  padding-right: 1em;
+  float: right;
+}
