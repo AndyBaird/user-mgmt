@@ -1,4 +1,5 @@
 $(function () {
+  app.renderUser(app.userList.all);
 
   $(".submit").click(function grabUserInput(){
 
