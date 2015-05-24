@@ -1,34 +1,56 @@
-HTML {
+html {
   height: 100%;
 }
 body {
   font-family: 'Cabin', sans-serif;
-  background-color: #F2F3F4;
+  background:   linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
+    ),url("img/wallpaper.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 header {
-  background-color: #8BC5BF;
+  background-color: #59323C;
   padding: 0.3em;
   text-align: center;
+  font-family: ‘Courier New’, Courier, monospace;
   font-size: 4.5em;
-  border-bottom: solid grey 1px;
   color: white;
   margin-bottom: 0.5em;
+}
+.page-container {
 }
 main {
   position: relative;
   margin: auto;
-  padding: 1em;
-  border: solid grey 1px;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  padding-right:1em;
   width:50%;
   height: 50%;
-  background-color: #E7B44C;
+  background-color: #BFAF80;
   border-radius: 0.2em;
-  box-shadow: 4px 4px 4px 3px rgba(0, 0, 0, 0.5);
 }
 .user-form {
   padding: 0.5em;
   display: block;
   text-align: left;
+}
+.user-form p {
+  font-size: 0.8em;
+  color: black;
+}
+h4 {
+  display: block;
+  margin:auto;
+  text-align: center;
+  background-color: #8C6954;
+  padding: 1em;
+  width: 50%;
+  color: white;
+  border-radius:0.2em;
+  font-style: italic;
 }
 input {
   display: block;
@@ -45,22 +67,25 @@ input {
   display: block;
   padding: 0.5em;
   background-color: white;
-  box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.5);
   border-radius: 0.2em;
 }
 .output-container{
   display:block;
   margin: auto;
+  width: 50%;
   text-align: center;
-  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 1em;
+  background-color: #F2EEB3;
+  border-radius: 0.2em;
 }
 li {
-  border:1px solid grey;
+  border-radius: 0.2em;
   padding: 1em;
   padding-bottom:2em;
   margin: auto;
   position: relative;
-  width: 50%;
+  width: 90%;
   margin-top: 1em;
   margin-bottom: 1em;
   background-color: white;
@@ -69,5 +94,13 @@ li {
   float: left;
 }
 .user-email{
-  float:right;
+  float: right;
+}
+footer {
+  box-sizing: border-box;
+  background-color: #260126;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 0.5em;
 }
