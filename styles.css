@@ -24,7 +24,6 @@ main {
   background-color: #E7B44C;
   border-radius: 0.2em;
   box-shadow: 4px 4px 4px 3px rgba(0, 0, 0, 0.5);
-
 }
 .user-form {
   padding: 0.5em;
@@ -41,32 +40,34 @@ input {
   font-size: 1.2em;
 
 }
-
 .submit{
   margin: auto;
   display: block;
   padding: 0.5em;
   background-color: white;
   box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.5);
-  /*box-shadow: #55A495;*/
   border-radius: 0.2em;
-<<<<<<< HEAD
-=======
+}
+.output-container{
+  display:block;
+  margin: auto;
+  text-align: center;
+  margin-top: 1em;
 }
 li {
   border:1px solid grey;
+  padding: 1em;
+  padding-bottom:2em;
   margin: auto;
-  position: relative; width: 50%;
-  margin-top: 1em; background-color: white;
+  position: relative;
+  width: 50%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  background-color: white;
 }
-
 .user-name{
-  padding-left: 1em;
   float: left;
 }
-
 .user-email{
-  padding-right: 1em;
-  float: right;
->>>>>>> master
+  float:right;
 }
