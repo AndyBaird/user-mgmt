@@ -1,6 +1,6 @@
 app.userList = {
   all: [],
-  add: function (user) {
+  add: function (firstName, lastName, eMail) {
     this.all.push(app.userCreate(firstName, lastName, eMail));
     //this.save();
   },

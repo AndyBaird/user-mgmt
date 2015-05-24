@@ -1,7 +1,7 @@
 app.userCreate = function (firstName, lastName, eMail) {
   return {
-    firstName: firstName,
-    lastName: lastName,
-    eMail: email
+    firstname: firstName,
+    lastname: lastName,
+    email: eMail
   };
 };
