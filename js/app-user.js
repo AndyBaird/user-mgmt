@@ -2,7 +2,7 @@ app.userList = {
   all: [],
   add: function (user) {
     this.all.push(user);
-    this.save();
+  //  this.save();
   },
   remove: function (index) {
   },

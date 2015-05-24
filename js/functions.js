@@ -6,9 +6,9 @@ $(function () {
     var firstName = $("#firstName").val();
     var lastName = $("#lastName").val();
     var eMail = $("#eMail").val();
+var user = [firstName, lastName, eMail];
 
-
-    app.userList.add(firstName, lastName, eMail);
+    app.userList.add(user);
 
     app.renderUser(app.userList.all);
 
