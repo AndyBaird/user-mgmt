@@ -50,4 +50,23 @@ input {
   box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.5);
   /*box-shadow: #55A495;*/
   border-radius: 0.2em;
+<<<<<<< HEAD
+=======
+}
+li {
+  border:1px solid grey;
+  margin: auto;
+  position: relative; width: 50%;
+  margin-top: 1em; background-color: white;
+}
+
+.user-name{
+  padding-left: 1em;
+  float: left;
+}
+
+.user-email{
+  padding-right: 1em;
+  float: right;
+>>>>>>> master
 }
