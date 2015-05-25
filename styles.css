@@ -4,8 +4,8 @@ html {
 body {
   font-family: 'Cabin', sans-serif;
   background:   linear-gradient(
-      rgba(255, 255, 255, 0.7),
-      rgba(255, 255, 255, 0.7)
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
     ),url("img/wallpaper.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -15,11 +15,9 @@ header {
   padding: 0.3em;
   text-align: center;
   font-family: ‘Courier New’, Courier, monospace;
-  font-size: 4.5em;
+  font-size: 4em;
   color: white;
   margin-bottom: 0.5em;
-}
-.page-container {
 }
 main {
   position: relative;
@@ -67,7 +65,8 @@ input {
   display: block;
   padding: 0.5em;
   background-color: white;
-  border-radius: 0.2em;
+  border-radius: 0.5em;
+  font-family: georgia;
 }
 .output-container{
   display:block;
@@ -98,7 +97,7 @@ li {
 }
 footer {
   box-sizing: border-box;
-  background-color: #260126;
+  background-color: #59323C;
   position: absolute;
   bottom: 0;
   width: 100%;
