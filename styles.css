@@ -89,6 +89,14 @@ li {
   margin-bottom: 1em;
   background-color: white;
 }
+.removeButton {
+  position: absolute;
+  top: -0.5em;
+  right: -0.5em;
+  border-radius: 1em;
+  background-color: white;
+  border-color: black;
+}
 .user-name{
   float: left;
 }
