@@ -3,11 +3,12 @@ html {
 }
 body {
   font-family: 'Cabin', sans-serif;
-  background:   linear-gradient(
+  background: linear-gradient(
       rgba(255, 255, 255, 0.5),
       rgba(255, 255, 255, 0.5)
     ),url("img/wallpaper.jpg");
   background-size: cover;
+  background-attachment: fixed;
   background-repeat: no-repeat;
 }
 header {
@@ -106,7 +107,7 @@ li {
 footer {
   box-sizing: border-box;
   background-color: #59323C;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   padding: 0.5em;
